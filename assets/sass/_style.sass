@@ -1,0 +1,17 @@
+footer#document-footer
+    .container + .container
+        @include media-breakpoint-up(desktop)
+            flex-direction: column-reverse
+            align-items: center
+            .footer-social
+                li
+                    margin-right: $spacing-3
+                .site-links
+                    margin-bottom: $spacing-5
+                    li
+                        background: white
+                        border-radius: 50px
+                        color: black
+                        padding: $spacing-2 $spacing-3
+                        a
+                            color: black
