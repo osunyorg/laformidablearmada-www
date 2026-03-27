@@ -2,13 +2,30 @@
 
 fr:
   title: >-
-    www
+    La Formidable Armada
   contentDir: content/fr
   languageCode: fr
   languageName: Français
   buildFuture: true
   params:
     contact_details:
+      emails:
+        email:
+          label: >-
+            contact@laformidablearmada.com
+          value: >-
+            mailto:contact@laformidablearmada.com
+      social_networks:
+        facebook:
+          label: >-
+            laformidablearmada
+          value: >-
+            https://www.facebook.com/laformidablearmada
+        x:
+          label: >-
+            LaFormidableAA
+          value: >-
+            https://x.com/LaFormidableAA
 
   taxonomies:
     administrator: administrators
