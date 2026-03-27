@@ -16,16 +16,16 @@ fr:
           value: >-
             mailto:contact@laformidablearmada.com
       social_networks:
-        facebook:
+        instagram:
           label: >-
-            laformidablearmada
+            la_formidable_armada
           value: >-
-            https://www.facebook.com/laformidablearmada
-        x:
+            https://instagram.com/la_formidable_armada
+        linkedin:
           label: >-
-            LaFormidableAA
+            la-formidable-armada
           value: >-
-            https://x.com/LaFormidableAA
+            https://www.linkedin.com/company/la-formidable-armada/
 
   taxonomies:
     administrator: administrators
