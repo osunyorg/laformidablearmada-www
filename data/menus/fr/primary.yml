@@ -37,4 +37,13 @@ items:
   descendants_targets: []
   path: "/organizations"
   file: content/fr/organizations/_index.html
+- title: Notre raison d’être
+  slug: notre-raison-d-etre
+  target: "/notre-raison-detre/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/notre-raison-detre"
+  file: content/fr/pages/notre-raison-detre/_index.html
 
