@@ -1,15 +1,15 @@
 ---
 title: Menu principal
 items:
-- title: Notre raison d’être
-  slug: notre-raison-d-etre
-  target: "/lagence/notre-raison-detre/"
+- title: L'agence
+  slug: l-agence
+  target: "/lagence/"
   kind: page
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/pages/lagence/notre-raison-detre"
-  file: content/fr/pages/lagence/notre-raison-detre/_index.html
+  path: "/pages/lagence"
+  file: content/fr/pages/lagence/_index.html
 - title: Références
   slug: references
   target: "/references/"
