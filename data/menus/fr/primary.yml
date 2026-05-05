@@ -3,13 +3,13 @@ title: Menu principal
 items:
 - title: Notre raison d’être
   slug: notre-raison-d-etre
-  target: "/notre-raison-detre/"
+  target: "/lagence/notre-raison-detre/"
   kind: page
   new_tab: false
   children: []
   descendants_targets: []
-  path: "/pages/notre-raison-detre"
-  file: content/fr/pages/notre-raison-detre/_index.html
+  path: "/pages/lagence/notre-raison-detre"
+  file: content/fr/pages/lagence/notre-raison-detre/_index.html
 - title: Références
   slug: references
   target: "/references/"

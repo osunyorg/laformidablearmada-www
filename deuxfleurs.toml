@@ -31,6 +31,14 @@ from = "/projets/index.html"
 to = "/references/"
 
 [[redirects]]
+from = "/notre-raison-detre/index.html"
+to = "/lagence/notre-raison-detre/"
+
+[[redirects]]
+from = "/services/index.html"
+to = "/lagence/services/"
+
+[[redirects]]
 from = "/references/assistance-a-maitrise-d-usage/index.html"
 to = "/references/missions/urbanisme-transitoire/"
 
