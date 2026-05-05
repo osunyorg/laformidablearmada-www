@@ -4,6 +4,8 @@ theme:
 _merge: deep
 params:
   additional_csp: 'use.typekit.net'
+  breadcrumb:
+    position: after-hero
   summary:
     position: hero
   search:
