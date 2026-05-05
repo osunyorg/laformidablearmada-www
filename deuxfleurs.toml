@@ -15,10 +15,22 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
+from = "/references/amu/index.html"
+to = "/references/missions/amu/"
+
+[[redirects]]
+from = "/references/concertation/index.html"
+to = "/references/missions/concertation/"
+
+[[redirects]]
+from = "/references/urbanisme-transitoire/index.html"
+to = "/references/missions/urbanisme-transitoire/"
+
+[[redirects]]
 from = "/projets/index.html"
 to = "/references/"
 
 [[redirects]]
 from = "/references/assistance-a-maitrise-d-usage/index.html"
-to = "/references/urbanisme-transitoire/"
+to = "/references/missions/urbanisme-transitoire/"
 

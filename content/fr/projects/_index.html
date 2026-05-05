@@ -46,8 +46,8 @@ design:
 
 
 
-position: 5
-weight: 5
+position: 3
+weight: 3
 
 translationKey: communication-website-page-2dfa89e7-6ab0-49dc-819d-0697c1406984
 
@@ -59,24 +59,44 @@ header_cta:
 
 section_taxonomies:
   - name: >-
-      Catégories
-    slug: ""
-    path: ""
+      Missions
+    slug: "missions"
+    path: "/projects_categories/missions"
     categories:
-      - permalink: "/references/concertation/"
-        path: "/projects_categories/concertation"
-        slug: "concertation"
-        file: "content/fr/projects_categories/concertation/_index.html"
-        name: >-
-          Concertation
-        count: 1
-      - permalink: "/references/amu/"
-        path: "/projects_categories/amu"
-        slug: "amu"
-        file: "content/fr/projects_categories/amu/_index.html"
+      - permalink: "/references/missions/amu/"
+        path: "/projects_categories/missions/amu"
+        slug: "missions/amu"
+        file: "content/fr/projects_categories/missions/amu/_index.html"
         name: >-
           AMU
         count: 1
+      - permalink: "/references/missions/concertation/"
+        path: "/projects_categories/missions/concertation"
+        slug: "missions/concertation"
+        file: "content/fr/projects_categories/missions/concertation/_index.html"
+        name: >-
+          Concertation
+        count: 1
+  - name: >-
+      Domaines
+    slug: "domaines"
+    path: "/projects_categories/domaines"
+    categories:
+      - permalink: "/references/domaines/projets-urbains-et-espace-public/"
+        path: "/projects_categories/domaines/projets-urbains-et-espace-public"
+        slug: "domaines/projets-urbains-et-espace-public"
+        file: "content/fr/projects_categories/domaines/projets-urbains-et-espace-public/_index.html"
+        name: >-
+          Projets urbains et espace public
+        count: 1
+        children:
+          - permalink: "/references/domaines/projets-urbains-et-espace-public/territoire-metropolitain-grand-lyon/"
+            path: "/projects_categories/domaines/projets-urbains-et-espace-public/territoire-metropolitain-grand-lyon"
+            slug: "domaines/projets-urbains-et-espace-public/territoire-metropolitain-grand-lyon"
+            file: "content/fr/projects_categories/domaines/projets-urbains-et-espace-public/territoire-metropolitain-grand-lyon/_index.html"
+            name: >-
+              Territoire métropolitain : Grand Lyon
+            count: 1
 
 
 contents_reading_time:
