@@ -15,6 +15,10 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
+from = "/references/concours-d-operateurs-immobiliers/index.html"
+to = "/references/domaines/immobilier-et-equipements/concours-d-operateurs-immobiliers/"
+
+[[redirects]]
 from = "/references/amu/index.html"
 to = "/references/missions/amu/"
 
@@ -37,6 +41,18 @@ to = "/lagence/notre-raison-detre/"
 [[redirects]]
 from = "/services/index.html"
 to = "/lagence/services/"
+
+[[redirects]]
+from = "/references/intelligence-collective/index.html"
+to = "/references/missions/intelligence-collective/"
+
+[[redirects]]
+from = "/references/urbanisme-et-logement/index.html"
+to = "/references/domaines/politiques-publiques/urbanisme-et-logement/"
+
+[[redirects]]
+from = "/references/equipements-publics/index.html"
+to = "/references/domaines/immobilier-et-equipements/equipements-publics/"
 
 [[redirects]]
 from = "/references/assistance-a-maitrise-d-usage/index.html"
