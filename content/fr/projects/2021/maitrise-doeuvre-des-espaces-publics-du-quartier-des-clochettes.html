@@ -16,7 +16,7 @@ meta:
     slug: "maitrise-doeuvre-des-espaces-publics-du-quartier-des-clochettes"
   dates:
     created_at: 2026-03-27T16:02:19+01:00
-    updated_at: 2026-05-06T08:38:41+02:00
+    updated_at: 2026-05-06T22:41:36+02:00
     published_at: 2026-03-27T16:02:19+01:00
 search:
   id: "048b8b76-ab7a-46b7-ad29-e85c9fe8a669"
@@ -26,10 +26,9 @@ search:
   lang: "fr"
   title: >-
     Maîtrise d’œuvre des espaces publics du quartier des Clochettes Saint Fons (69)
-  summary: >-
-    <p>Une démarche "d'aller-vers" les publics à la rencontre des usagers de la place</p>
+
   body: >-
-    <p>Missions </p>  <p>Diagnostic <br>Diagnostic sensible du territoire à la rencontre des habitants</p>  <p>Ateliers <br>Ateliers habitants et acteurs locaux, pour recueillir des besoins, identifier les enjeux des habitants au regard du projet</p>  <p>Scénarisation <br>Scénarisation des usages par secteurs (co-propriété des Clochettes et Place des Palabres)</p>  <p>  </p>  <p>Début</p>  <p>Fin</p>  <p>k€ HT <br>Budget</p>  <p>  </p>  <p>MOA</p>  <p>Mandataire</p>  <p>Setec</p>  <p>co-traitant</p>  <p>Eranthis</p>  <p>co-traitant</p>
+    <p>Missions </p>  <p>Diagnostic <br>Diagnostic sensible du territoire à la rencontre des habitants</p>  <p>Ateliers <br>Ateliers habitants et acteurs locaux, pour recueillir des besoins, identifier les enjeux des habitants au regard du projet</p>  <p>Scénarisation <br>Scénarisation des usages par secteurs (co-propriété des Clochettes et Place des Palabres)</p>  <p>  </p>  <p>Début</p>  <p>Fin</p>  <p>k€ HT <br>Budget</p>  <p> maîtrise d'ouvrage </p>  <p>MOA</p>  <p> équipe </p>  <p>Mandataire</p>  <p>Setec</p>  <p>co-traitant</p>  <p>Eranthis</p>  <p>co-traitant</p>
 
 breadcrumbs:
   - title: >-
@@ -42,10 +41,10 @@ breadcrumbs:
       Maîtrise d’œuvre des espaces publics du quartier des Clochettes
 
 design:
-  full_width: true
+  full_width: false
   toc:
     present: false
-    offcanvas: true
+    offcanvas: false
 
 translationKey: communication-website-portfolio-project-09fa2c54-01aa-4c12-9f96-55feb226a314
 
@@ -56,8 +55,7 @@ image:
 
 
 
-summary: >-
-  <p>Une démarche "d'aller-vers" les publics à la rencontre des usagers de la place</p>
+
 header_cta:
 
 year: 2021
@@ -70,26 +68,6 @@ projects_categories:
   - "publics/enfants"
   - "publics/habitants"
 taxonomies:
-  - permalink: ""
-    path: ""
-    slug: ""
-    file: ""
-    name: >-
-      Catégories
-    categories:
-      - permalink: "/references/publics/enfants/"
-        path: "/projects_categories/publics/enfants"
-        slug: "publics/enfants"
-        file: "content/fr/projects_categories/publics/enfants/_index.html"
-        name: >-
-          enfants
-      - permalink: "/references/publics/habitants/"
-        path: "/projects_categories/publics/habitants"
-        slug: "publics/habitants"
-        file: "content/fr/projects_categories/publics/habitants/_index.html"
-        name: >-
-          habitants
-
   - permalink: "/references/mots-cles/"
     path: "/projects_categories/mots-cles"
     slug: "mots-cles"
@@ -130,9 +108,29 @@ taxonomies:
         name: >-
           Territoire métropolitain : Grand Lyon
 
+  - permalink: "/references/publics/"
+    path: "/projects_categories/publics"
+    slug: "publics"
+    file: "content/fr/projects_categories/publics/_index.html"
+    name: >-
+      publics
+    categories:
+      - permalink: "/references/publics/enfants/"
+        path: "/projects_categories/publics/enfants"
+        slug: "publics/enfants"
+        file: "content/fr/projects_categories/publics/enfants/_index.html"
+        name: >-
+          enfants
+      - permalink: "/references/publics/habitants/"
+        path: "/projects_categories/publics/habitants"
+        slug: "publics/habitants"
+        file: "content/fr/projects_categories/publics/habitants/_index.html"
+        name: >-
+          habitants
+
 
 contents_reading_time:
-  seconds: 14
+  seconds: 16
   text: >-
     moins d'une minute
 contents:
@@ -218,19 +216,26 @@ contents:
 
   - kind: block
     template: organizations
-
-
+    title: >-
+      maîtrise d'ouvrage
+    slug: >-
+      maitrise-d-ouvrage
     ranks:
       base: 2
-      children: 2
+      self: 2
+      children: 3
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          maîtrise d'ouvrage
+        heading: 2
 
     data:
       layout: grid
 
       options:
-        link: true
+        link: false
         logo: false
         summary: false
         address: false
@@ -243,6 +248,37 @@ contents:
           file: "content/fr/organizations/metropole-de-lyon.html"
           role: >-
             MOA
+      quantity: 1
+
+
+  - kind: block
+    template: organizations
+    title: >-
+      équipe
+    slug: >-
+      equipe
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          équipe
+        heading: 2
+
+    data:
+      layout: grid
+
+      options:
+        link: false
+        logo: false
+        summary: false
+        address: false
+        filters: false
+
+      organizations:
         - permalink: "/organisations/jasp/"
           path: "/organizations/jasp"
           slug: "jasp"
@@ -265,7 +301,7 @@ contents:
           external: true
           role: >-
             co-traitant
-      quantity: 4
+      quantity: 3
 
 
 
