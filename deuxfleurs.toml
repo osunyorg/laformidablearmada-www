@@ -15,12 +15,36 @@ for = ["**/*.png", "**/*.jpg", "**/*.jpeg", "**/*.gif", "**/*.webp"]
 Cache-Control = "max-age=31536000, no-transform, public"
 
 [[redirects]]
+from = "/references/ados/index.html"
+to = "/references/publics/ados/"
+
+[[redirects]]
 from = "/references/concours-d-operateurs-immobiliers/index.html"
 to = "/references/domaines/immobilier-et-equipements/concours-d-operateurs-immobiliers/"
 
 [[redirects]]
+from = "/references/missions/strategie-innovation/index.html"
+to = "/references/mots-cles/strategie-innovation/"
+
+[[redirects]]
+from = "/references/missions/mise-en-recit/index.html"
+to = "/references/mots-cles/mise-en-recit/"
+
+[[redirects]]
 from = "/references/2025-nformation-concertation-transformation-du-site-de-lancienne-usine-cuprofil/index.html"
 to = "/references/2025-transformation-du-site-de-lancienne-usine-cuprofil/"
+
+[[redirects]]
+from = "/references/missions/table-ronde/index.html"
+to = "/references/mots-cles/table-ronde/"
+
+[[redirects]]
+from = "/references/missions/pedagogie/index.html"
+to = "/references/mots-cles/pedagogie/"
+
+[[redirects]]
+from = "/references/agents-publics/index.html"
+to = "/references/publics/agents-publics/"
 
 [[redirects]]
 from = "/references/amu/index.html"
@@ -31,12 +55,28 @@ from = "/references/concertation/index.html"
 to = "/references/mots-cles/concertation/"
 
 [[redirects]]
+from = "/references/missions/design-d-espace/index.html"
+to = "/references/mots-cles/design-d-espace/"
+
+[[redirects]]
 from = "/references/urbanisme-transitoire/index.html"
 to = "/references/mots-cles/urbanisme-transitoire/"
 
 [[redirects]]
 from = "/references/missions/index.html"
 to = "/references/mots-cles/"
+
+[[redirects]]
+from = "/references/missions/web/index.html"
+to = "/references/mots-cles/web/"
+
+[[redirects]]
+from = "/references/missions/etude/index.html"
+to = "/references/mots-cles/etude/"
+
+[[redirects]]
+from = "/references/missions/communication/index.html"
+to = "/references/mots-cles/communication/"
 
 [[redirects]]
 from = "/projets/index.html"
@@ -52,15 +92,31 @@ to = "/lagence/services/"
 
 [[redirects]]
 from = "/references/intelligence-collective/index.html"
-to = "/references/missions/intelligence-collective/"
+to = "/references/mots-cles/intelligence-collective/"
+
+[[redirects]]
+from = "/references/missions/graphisme/index.html"
+to = "/references/mots-cles/graphisme/"
+
+[[redirects]]
+from = "/references/missions/animation/index.html"
+to = "/references/mots-cles/animation/"
 
 [[redirects]]
 from = "/references/seniors/index.html"
 to = "/references/publics/seniors/"
 
 [[redirects]]
+from = "/references/missions/strategie/index.html"
+to = "/references/mots-cles/strategie/"
+
+[[redirects]]
 from = "/references/habitants/index.html"
 to = "/references/publics/habitants/"
+
+[[redirects]]
+from = "/references/missions/intelligence-collective/index.html"
+to = "/references/mots-cles/intelligence-collective/"
 
 [[redirects]]
 from = "/references/missions/amu/index.html"
@@ -79,8 +135,16 @@ from = "/references/urbanisme-et-logement/index.html"
 to = "/references/domaines/politiques-publiques/urbanisme-et-logement/"
 
 [[redirects]]
+from = "/references/missions/balade-urbaine/index.html"
+to = "/references/mots-cles/balade-urbaine/"
+
+[[redirects]]
 from = "/references/information/index.html"
 to = "/references/mots-cles/information/"
+
+[[redirects]]
+from = "/references/missions/programmation/index.html"
+to = "/references/mots-cles/programmation/"
 
 [[redirects]]
 from = "/references/equipements-publics/index.html"
@@ -91,10 +155,38 @@ from = "/references/missions/direction-artistique/index.html"
 to = "/references/mots-cles/direction-artistique/"
 
 [[redirects]]
+from = "/references/missions/design-d-objet/index.html"
+to = "/references/mots-cles/design-d-objet/"
+
+[[redirects]]
+from = "/references/missions/facilitation-graphique/index.html"
+to = "/references/mots-cles/facilitation-graphique/"
+
+[[redirects]]
+from = "/references/missions/prototypage/index.html"
+to = "/references/mots-cles/prototypage/"
+
+[[redirects]]
+from = "/references/missions/design-de-service/index.html"
+to = "/references/mots-cles/design-de-service/"
+
+[[redirects]]
 from = "/references/assistance-a-maitrise-d-usage/index.html"
 to = "/references/mots-cles/urbanisme-transitoire/"
 
 [[redirects]]
+from = "/references/missions/psychologie-sociale/index.html"
+to = "/references/mots-cles/psychologie-sociale/"
+
+[[redirects]]
 from = "/references/missions/urbanisme-transitoire/index.html"
 to = "/references/mots-cles/urbanisme-transitoire/"
+
+[[redirects]]
+from = "/references/missions/design-d-usages/index.html"
+to = "/references/mots-cles/design-d-usages/"
+
+[[redirects]]
+from = "/references/missions/nudge/index.html"
+to = "/references/mots-cles/nudge/"
 
