@@ -3,7 +3,7 @@ theme:
   - osuny-plugin-centered-footer
 _merge: deep
 params:
-  additional_csp: 'use.typekit.net'
+  additional_csp: 'use.typekit.net p.typekit.net'
   breadcrumb:
     position: after-hero
   summary:
