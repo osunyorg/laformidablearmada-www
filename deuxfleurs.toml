@@ -171,6 +171,10 @@ from = "/references/missions/design-de-service/index.html"
 to = "/references/mots-cles/design-de-service/"
 
 [[redirects]]
+from = "/references/administration/index.html"
+to = "/references/mots-cles/administration/"
+
+[[redirects]]
 from = "/references/assistance-a-maitrise-d-usage/index.html"
 to = "/references/mots-cles/urbanisme-transitoire/"
 
