@@ -19,22 +19,4 @@ items:
   descendants_targets: []
   path: "/projects"
   file: content/fr/projects/_index.html
-- title: Services
-  slug: services
-  target: "/lagence/services/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/pages/lagence/services"
-  file: content/fr/pages/lagence/services/_index.html
-- title: Une équipe formidable
-  slug: une-equipe-formidable
-  target: "/lagence/une-equipe-formidable/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/pages/lagence/une-equipe-formidable"
-  file: content/fr/pages/lagence/une-equipe-formidable/_index.html
 
