@@ -19,16 +19,24 @@ from = "/references/concours-d-operateurs-immobiliers/index.html"
 to = "/references/domaines/immobilier-et-equipements/concours-d-operateurs-immobiliers/"
 
 [[redirects]]
+from = "/references/2025-nformation-concertation-transformation-du-site-de-lancienne-usine-cuprofil/index.html"
+to = "/references/2025-transformation-du-site-de-lancienne-usine-cuprofil/"
+
+[[redirects]]
 from = "/references/amu/index.html"
-to = "/references/missions/amu/"
+to = "/references/mots-cles/amu/"
 
 [[redirects]]
 from = "/references/concertation/index.html"
-to = "/references/missions/concertation/"
+to = "/references/mots-cles/concertation/"
 
 [[redirects]]
 from = "/references/urbanisme-transitoire/index.html"
-to = "/references/missions/urbanisme-transitoire/"
+to = "/references/mots-cles/urbanisme-transitoire/"
+
+[[redirects]]
+from = "/references/missions/index.html"
+to = "/references/mots-cles/"
 
 [[redirects]]
 from = "/projets/index.html"
@@ -47,14 +55,34 @@ from = "/references/intelligence-collective/index.html"
 to = "/references/missions/intelligence-collective/"
 
 [[redirects]]
+from = "/references/missions/amu/index.html"
+to = "/references/mots-cles/amu/"
+
+[[redirects]]
+from = "/references/missions/concertation/index.html"
+to = "/references/mots-cles/concertation/"
+
+[[redirects]]
 from = "/references/urbanisme-et-logement/index.html"
 to = "/references/domaines/politiques-publiques/urbanisme-et-logement/"
+
+[[redirects]]
+from = "/references/information/index.html"
+to = "/references/mots-cles/information/"
 
 [[redirects]]
 from = "/references/equipements-publics/index.html"
 to = "/references/domaines/immobilier-et-equipements/equipements-publics/"
 
 [[redirects]]
+from = "/references/missions/direction-artistique/index.html"
+to = "/references/mots-cles/direction-artistique/"
+
+[[redirects]]
 from = "/references/assistance-a-maitrise-d-usage/index.html"
-to = "/references/missions/urbanisme-transitoire/"
+to = "/references/mots-cles/urbanisme-transitoire/"
+
+[[redirects]]
+from = "/references/missions/urbanisme-transitoire/index.html"
+to = "/references/mots-cles/urbanisme-transitoire/"
 
