@@ -55,12 +55,24 @@ from = "/references/intelligence-collective/index.html"
 to = "/references/missions/intelligence-collective/"
 
 [[redirects]]
+from = "/references/seniors/index.html"
+to = "/references/publics/seniors/"
+
+[[redirects]]
+from = "/references/habitants/index.html"
+to = "/references/publics/habitants/"
+
+[[redirects]]
 from = "/references/missions/amu/index.html"
 to = "/references/mots-cles/amu/"
 
 [[redirects]]
 from = "/references/missions/concertation/index.html"
 to = "/references/mots-cles/concertation/"
+
+[[redirects]]
+from = "/references/elus/index.html"
+to = "/references/publics/elus/"
 
 [[redirects]]
 from = "/references/urbanisme-et-logement/index.html"
