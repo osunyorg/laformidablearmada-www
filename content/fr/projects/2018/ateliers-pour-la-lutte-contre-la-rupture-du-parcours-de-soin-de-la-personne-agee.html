@@ -15,7 +15,7 @@ meta:
     slug: "ateliers-pour-la-lutte-contre-la-rupture-du-parcours-de-soin-de-la-personne-agee"
   dates:
     created_at: 2026-05-07T16:42:49+02:00
-    updated_at: 2026-05-07T16:49:58+02:00
+    updated_at: 2026-05-07T16:54:20+02:00
     published_at: 2026-05-07T16:42:49+02:00
 search:
   id: "544d8060-f648-4f0c-8eb3-ac9ef59f1214"
@@ -27,7 +27,7 @@ search:
     Ateliers pour la lutte contre la rupture du parcours de soin de la personne âgée
 
   body: >-
-    <p>Contexte  <br>Blabla</p>  <p> Enjeux  <br>Blabla</p>  <p> Missions  <br> animation d'ateliers de la filière professionnelle gérontologique    <br> supervision création web    </p>
+    <p>Contexte  <br>Blabla</p>  <p> Enjeux  <br>Blabla</p>  <p> Missions  <br> animation d'ateliers de la filière professionnelle gérontologique    <br> supervision création web    </p>  <p> Client </p>  <p>Filière Gérontologique Rhône Sud</p>  <p> Formidable team </p>
 
 breadcrumbs:
   - title: >-
@@ -164,7 +164,7 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 5
+  seconds: 7
   text: >-
     moins d'une minute
 contents:
@@ -267,25 +267,79 @@ contents:
 
   - kind: block
     template: organizations
-
-
+    title: >-
+      Client
+    slug: >-
+      client
     ranks:
       base: 2
+      self: 2
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Client
+        heading: 2
 
     data:
       layout: grid
 
       options:
-        link: true
-        logo: true
+        link: false
+        logo: false
         summary: false
         address: false
         filters: false
 
       organizations:
-      quantity: 0
+        - 
+          name: >-
+            Filière Gérontologique Rhône Sud
+
+          logo: ""
+          external: true
+
+      quantity: 1
+
+
+  - kind: block
+    template: persons
+    title: >-
+      Formidable team
+    slug: >-
+      formidable-team
+    ranks:
+      base: 2
+      self: 2
+      children: 3
+    top:
+      active: true
+      title: 
+        value: >-
+          Formidable team
+        heading: 2
+
+    data:
+
+      layout: grid
+      options:
+        image: true
+        summary: true
+        link: true
+        contact: false
+
+      persons:
+        - permalink: "/personnes/sarah-tayebi/"
+          path: "/persons/sarah-tayebi"
+          slug: "sarah-tayebi"
+          file: "content/fr/persons/sarah-tayebi.html"
+
+        - permalink: "/personnes/agnes-jolivet/"
+          path: "/persons/agnes-jolivet"
+          slug: "agnes-jolivet"
+          file: "content/fr/persons/agnes-jolivet.html"
+
+      quantity: 2
 
 
 
