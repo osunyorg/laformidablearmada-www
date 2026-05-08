@@ -16,6 +16,9 @@ params:
   home:
     head:
       title: site
+  persons:
+    single:
+      backlinks: true
   projects:
     default_image: true
     index:
