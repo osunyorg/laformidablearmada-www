@@ -1,0 +1,65 @@
+.projects__page
+    .hero
+        .content
+            .hero-text
+                p
+                    @include h5
+            @include media-breakpoint-up(desktop)
+                .hero-text
+                    width: columns(8)
+                figure
+                    width: columns(4)
+                    img
+                        border-radius: $image-border-radius
+    .project-sidebar
+        .project-infos
+            .year,
+            .reading-time,
+            .social-share
+                display: none !important
+            .taxonomies-single.with-label
+                > li.terms
+                    border-top: none !important
+                    display: block
+                    .taxonomy-title
+                        display: block
+                        margin-bottom: $spacing-1
+                    .taxonomy-children
+                        text-align: left !important
+                        display: block
+                        li
+                            margin-left: 0
+                            display: inline-block
+                            margin-right: space(1)
+                            margin-bottom: space(1)
+                            a
+                                display: inline
+                                text-decoration: none
+                                background: $color-accent
+                                color: $color-background
+                                padding: 0.15rem 0.5rem 0.25rem
+                                line-height: 100%
+                                border-radius: 50px
+                                &:hover
+                                    background: $color-text
+        .toc-container
+            border-top: none !important
+.projects
+    &--grid
+        @include media-breakpoint-up(desktop)
+            grid-template-columns: repeat(3, 1fr)
+.project
+    .project-content
+        .project-title
+            a
+                color: $color-accent
+        .project-subtitle
+            color: $color-text
+            font-weight: normal
+        .project-summary
+            @include h6
+    .media
+        border-radius: $image-border-radius
+        img
+            aspect-ratio: 16/9
+            

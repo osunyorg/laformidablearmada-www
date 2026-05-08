@@ -16,3 +16,11 @@ params:
   home:
     head:
       title: site
+  projects:
+    default_image: true
+    index:
+      options:
+        categories: false
+    single:
+      options:
+        reading_time: false
