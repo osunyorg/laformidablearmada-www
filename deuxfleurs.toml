@@ -31,6 +31,10 @@ from = "/references/missions/mise-en-recit/index.html"
 to = "/references/mots-cles/mise-en-recit/"
 
 [[redirects]]
+from = "/references/2024-programme-daccompagnement-lieux-innovants-lieux-accueillants-a-destination-des-france-services/index.html"
+to = "/references/2024-lieux-innovants-lieux-accueillants/"
+
+[[redirects]]
 from = "/references/2025-nformation-concertation-transformation-du-site-de-lancienne-usine-cuprofil/index.html"
 to = "/references/2025-transformation-du-site-de-lancienne-usine-cuprofil/"
 
