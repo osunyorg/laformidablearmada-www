@@ -6,8 +6,48 @@ items:
   target: "/lagence/"
   kind: page
   new_tab: false
-  children: []
-  descendants_targets: []
+  children:
+  - title: Notre raison d’être
+    slug: notre-raison-d-etre
+    target: "/lagence/notre-raison-detre/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/lagence/notre-raison-detre"
+    file: content/fr/pages/lagence/notre-raison-detre/_index.html
+  - title: Services
+    slug: services
+    target: "/lagence/services/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/lagence/services"
+    file: content/fr/pages/lagence/services/_index.html
+  - title: Une équipe formidable
+    slug: une-equipe-formidable
+    target: "/lagence/une-equipe-formidable/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/lagence/une-equipe-formidable"
+    file: content/fr/pages/lagence/une-equipe-formidable/_index.html
+  - title: Territoires d'intervention
+    slug: territoires-d-intervention
+    target: "/lagence/territoires-dintervention/"
+    kind: page
+    new_tab: false
+    children: []
+    descendants_targets: []
+    path: "/pages/lagence/territoires-dintervention"
+    file: content/fr/pages/lagence/territoires-dintervention/_index.html
+  descendants_targets:
+  - "/lagence/notre-raison-detre/"
+  - "/lagence/services/"
+  - "/lagence/territoires-dintervention/"
+  - "/lagence/une-equipe-formidable/"
   path: "/pages/lagence"
   file: content/fr/pages/lagence/_index.html
 - title: Références
