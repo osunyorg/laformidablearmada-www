@@ -1,0 +1,13 @@
+.page__home
+    .hero
+        @include media-breakpoint-up(desktop)
+            .hero-text
+                z-index: 1
+                filter: drop-shadow(0 0 10px white) drop-shadow(0 0 10px white) drop-shadow(0 0 10px white) drop-shadow(0 0 10px white)
+            figure
+                width: columns(9)
+                position: absolute
+                z-index: 0
+                top: 0
+                right: 0
+                pointer-events: none
