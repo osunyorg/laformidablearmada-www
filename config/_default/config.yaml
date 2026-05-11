@@ -16,6 +16,32 @@ params:
   home:
     head:
       title: site
+  menu:
+    primary:
+      level_1:
+        dropdown: true
+        summary:
+          active: false
+          source: "Summary" # "Summary" | "meta_description"
+          truncate: 125
+      level_2:
+        dropdown: false
+        summary:
+          active: true
+          source: "Summary" # "Summary" | "meta_description"
+          truncate: 0
+        title:
+          active: false
+          summary:
+            active: false
+            source: "Summary" # "Summary" | "meta_description"
+            truncate: 125
+      level_3:
+        dropdown: false
+        summary:
+          active: false
+          source: "Summary" # "Summary" | "meta_description"
+          truncate: 125
   organizations:
     single:
       backlinks: true
