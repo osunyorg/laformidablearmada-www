@@ -16,6 +16,9 @@ params:
   home:
     head:
       title: site
+  organizations:
+    single:
+      backlinks: true
   persons:
     single:
       backlinks: true
