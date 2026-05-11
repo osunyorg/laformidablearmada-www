@@ -58,6 +58,23 @@
             font-weight: normal
         .project-summary
             @include h6
+    .project-meta
+        .project-categories
+            display: block
+            li
+                display: inline-block
+                margin-right: space(1)
+                margin-bottom: space(2)
+                a
+                    display: inline
+                    text-decoration: none
+                    background: $color-accent
+                    color: $color-background
+                    padding: 0.15rem 0.5rem 0.25rem
+                    line-height: 100%
+                    border-radius: 50px
+                    &:hover
+                        background: $color-text
     .media
         border-radius: $image-border-radius
         img
