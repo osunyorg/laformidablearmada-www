@@ -7,22 +7,16 @@
         --color-accent: #{$color-prune}
 
 .block
-    &.block-class-green,
-    &.block-class-pink,
-    &.block-class-prune
-        margin-top: 0
-        margin-bottom: 0
-        padding-top: $spacing-5
-        padding-bottom: $spacing-5
     &.block-class-green
-        background: $color-green
-        *
-            color: $color-background !important
+        .block-title
+            a
+                color: $color-green
     &.block-class-pink
-        background: $color-pink
-        *
-            color: $color-text !important
+        .block-title
+            a
+                color: $color-pink
     &.block-class-prune
-        background: $color-prune
-        *
-            color: $color-background !important
+        .block-title
+            a
+                color: $color-prune
+        
