@@ -11,6 +11,8 @@
                     width: columns(4)
                     img
                         border-radius: $image-border-radius
+        .dropdown-share
+            position: relative
     .project-sidebar
         .project-infos
             .year,
@@ -52,7 +54,7 @@
     .project-content
         .project-title
             a
-                color: $color-accent
+                color: var(--color-accent)
         .project-subtitle
             color: $color-text
             font-weight: normal
@@ -68,7 +70,7 @@
                 a
                     display: inline
                     text-decoration: none
-                    background: $color-accent
+                    background: var(--color-accent)
                     color: $color-background
                     padding: 0.15rem 0.5rem 0.25rem
                     line-height: 100%
@@ -79,4 +81,14 @@
         border-radius: $image-border-radius
         img
             aspect-ratio: 16/9
-            
+.projects_categories__term
+    .children-categories
+        a
+            text-decoration: none
+            background: var(--color-accent)
+            color: $color-background
+            padding: 0.15rem 0.5rem 0.25rem
+            line-height: 100%
+            border-radius: 50px
+            &:hover
+                background: $color-text
