@@ -1,3 +1,8 @@
+@keyframes parallax
+    from
+        transform: translate(0, 0)
+    to
+        transform: translate(0, -800px)
 .page__home
     .hero
         @include media-breakpoint-up(desktop)
@@ -5,9 +10,11 @@
                 z-index: 1
                 filter: drop-shadow(0 0 10px white) drop-shadow(0 0 10px white) drop-shadow(0 0 10px white) drop-shadow(0 0 10px white)
             figure
-                width: columns(9)
+                width: 100%
                 position: absolute
                 z-index: 0
                 top: 0
                 right: 0
                 pointer-events: none
+                animation: parallax linear
+                animation-timeline: scroll()
