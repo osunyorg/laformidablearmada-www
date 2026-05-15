@@ -56,3 +56,50 @@ params:
     single:
       options:
         reading_time: false
+  image_sizes:
+    _default:
+      hero:
+        mobile:   400
+        tablet:   800
+        desktop:  1500
+    sections:
+      home:
+        hero:
+          mobile:   400
+          tablet:   800
+          desktop:  1500
+      pages:
+        hero:
+          mobile:   400
+          tablet:   800
+          desktop:  1500
+      projects:
+        hero:
+          mobile:   400
+          tablet:   800
+          desktop:  1500
+        hero_single:
+          mobile:   400
+          tablet:   800
+          desktop:  750
+        item:
+          mobile:   350
+          tablet:   450
+          desktop:  600
+        layouts:
+          alternate: 
+            mobile:   350
+            tablet:   555
+            desktop:  1019
+          grid:
+            mobile:   350
+            tablet:   350
+            desktop:  500
+          large:
+            mobile:   350
+            tablet:   555
+            desktop:  1019
+          list:
+            mobile:   90
+            tablet:   350
+            desktop:  415
