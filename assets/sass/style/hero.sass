@@ -1,0 +1,33 @@
+@keyframes parallax
+    from
+        transform: translate(0, 0)
+    to
+        transform: translate(0, -800px)
+.page__home,
+.pages__section
+    .hero
+        z-index: -1
+        .container
+            .content
+                display: block
+                .hero-text
+                    position: relative
+                    z-index: 10
+                    filter: drop-shadow(0 0 10px white) drop-shadow(0 0 10px white) drop-shadow(0 0 10px white) drop-shadow(0 0 10px white)
+                figure
+                    width: 100%
+                    position: absolute
+                    z-index: 1
+                    top: 0
+                    pointer-events: none
+                    animation-name: parallax
+                    animation-timing-function: linear
+                    animation-timeline: scroll()
+                    left: 0
+                    right: 0
+                    @include media-breakpoint-down(desktop)
+                        overflow: clip
+                        img
+                            margin-top: $spacing-5
+                            aspect-ratio: 4/3
+                            object-fit: cover
