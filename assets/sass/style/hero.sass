@@ -23,11 +23,12 @@
                     animation-name: parallax
                     animation-timing-function: linear
                     animation-timeline: scroll()
-                    left: 0
-                    right: 0
+                    @include media-breakpoint-up(desktop)
+                        left: 0
+                        right: 0
                     @include media-breakpoint-down(desktop)
                         overflow: clip
+                        margin-top: $spacing-5
                         img
-                            margin-top: $spacing-5
                             aspect-ratio: 4/3
                             object-fit: cover
