@@ -17,7 +17,7 @@ meta:
     slug: "amo-amenagement-espace-numerique-de-la-bibiliotheque-municipale-de-la-part-dieu"
   dates:
     created_at: 2026-05-21T15:25:00+02:00
-    updated_at: 2026-05-21T15:41:48+02:00
+    updated_at: 2026-05-21T15:50:19+02:00
     published_at: 2026-05-21T15:25:00+02:00
 search:
   id: "cfa9b417-8c8e-47f6-9fa7-2db20fb25957"
@@ -29,7 +29,8 @@ search:
     AMO Aménagement - Espace numérique de la Bibiliothèque Municipale de la Part-Dieu AMU & Programmation des usages
   summary: >-
     <p>Bibliothèque Municipale de la Part-Dieu, Lyon</p>
-
+  body: >-
+    <p>Contexte </p>  <p> Enjeux  <br>Les missions des bibliothèques sont particulièrement complexes car elles doivent s'adapter en permanence à une demande qui évolue sans cesse et qui a montré sa vigueur en période de pandémie et de confinement. Nouvelles expériences, mutualisation, évolution des compétences, démarche de développement durable apparaissent comme des enjeux essentiels à considérer dans le réaménagement des départements.</p>  <p> Missions  <br>• État des lieux (visite sur place, relevés) • Ateliers de coconception et de coconstruction avec l'équipe de l’EN • Atelier consultation des usagers • Scénarios de fonctionnement et d'implantation du nouvel Espace Numérique</p>
 
 breadcrumbs:
   - title: >-
@@ -48,6 +49,10 @@ design:
     offcanvas: false
 
 translationKey: communication-website-portfolio-project-9d85729f-0221-4935-8d0d-af222890c84a
+
+image:
+  id: "0813b05c-cd74-40db-9832-4e0ae17c450f"
+  alt: ""
 
 
 
@@ -149,18 +154,25 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 0
+  seconds: 26
   text: >-
     moins d'une minute
 contents:
   - kind: block
     template: chapter
-
-
+    title: >-
+      Contexte
+    slug: >-
+      contexte
     ranks:
       base: 2
+      self: 2
     top:
-      active: false
+      active: true
+      title: 
+        value: >-
+          Contexte
+        heading: 2
 
     data:
       layout: no_background
@@ -169,6 +181,110 @@ contents:
 
 
 
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      Enjeux
+    slug: >-
+      enjeux
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Enjeux
+        heading: 2
+
+    data:
+      layout: no_background
+      text: >-
+        <p>Les missions des bibliothèques sont particulièrement complexes car elles doivent s'adapter en permanence à une demande qui évolue sans cesse et qui a montré<br>sa vigueur en période de pandémie et de confinement.<br>Nouvelles expériences, mutualisation, évolution des compétences, démarche de développement durable apparaissent comme des enjeux essentiels à considérer dans le réaménagement des départements.</p>
+
+
+
+
+
+
+  - kind: block
+    template: chapter
+    title: >-
+      Missions
+    slug: >-
+      missions
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Missions
+        heading: 2
+
+    data:
+      layout: no_background
+      text: >-
+        <p>• État des lieux (visite sur place, relevés)<br>• Ateliers de coconception et de coconstruction avec l'équipe de l’EN<br>• Atelier consultation des usagers<br>• Scénarios de fonctionnement et d'implantation du nouvel Espace Numérique</p>
+
+
+
+
+
+
+  - kind: block
+    template: datatable
+
+
+    ranks:
+      base: 2
+    top:
+      active: false
+
+    data:
+
+      columns:
+        - "Année"
+        - "Budget"
+      rows:
+        - ["2024","10 K€ HT"]
+
+
+
+  - kind: block
+    template: persons
+
+
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: false
+
+    data:
+
+      layout: grid
+      options:
+        image: true
+        summary: true
+        link: true
+        contact: false
+
+      persons:
+        - permalink: "/personnes/agnes-jolivet/"
+          path: "/persons/agnes-jolivet"
+          slug: "agnes-jolivet"
+          file: "content/fr/persons/agnes-jolivet.html"
+
+        - permalink: "/personnes/laurie-beauvilain/"
+          path: "/persons/laurie-beauvilain"
+          slug: "laurie-beauvilain"
+          file: "content/fr/persons/laurie-beauvilain.html"
+
+      quantity: 2
 
 
 
