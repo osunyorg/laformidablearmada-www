@@ -17,7 +17,7 @@ meta:
     slug: "chalet-du-parc-laureat"
   dates:
     created_at: 2026-05-21T11:34:51+02:00
-    updated_at: 2026-05-21T11:41:46+02:00
+    updated_at: 2026-05-21T11:57:36+02:00
     published_at: 2026-05-21T11:35:07+02:00
 search:
   id: "325dd843-dc99-414a-94ee-7912a1f8f944"
@@ -30,7 +30,7 @@ search:
   summary: >-
     <p>Parc de la Tête d'0r, LYON</p>
   body: >-
-    <p>Contexte  <br>Dans le cadre de l'AMI lancé par la Ville de Lyon, La Formidable Armada a accompagné la maîtrise d'ouvrage Youse dans la rédaction de la candidature et de l'offre du projet.</p>
+    <p>Contexte  <br>Dans le cadre de l'AMI lancé par la Ville de Lyon, La Formidable Armada a accompagné la maîtrise d'ouvrage Youse dans la rédaction de la candidature et de l'offre du projet.</p>  <p> Missions  <br>• Animation : ateliers d'intelligence collective • Accompagnement à la programmation • Rendu de concours : direction artistique, mise en récit du projet phase candidature et phase offre Groupement : YOUSE | FONDATION GOODPLANET | LA FABULEUSE CANTINE Looking For Architecture | Atelier Charlotte Vergély | Jardin-Patrimoine | eEgenie | Minéka | Denizou | Bureau Alpes Contrôles | Maison Gutenberg | Kaleido’scop | Inclusif-Oxalis |La Formidable Armada</p>  <p>  </p>  <p>YOUSE</p>
 
 breadcrumbs:
   - title: >-
@@ -125,7 +125,7 @@ taxonomies:
 
 
 contents_reading_time:
-  seconds: 9
+  seconds: 24
   text: >-
     moins d'une minute
 contents:
@@ -157,6 +157,32 @@ contents:
 
   - kind: block
     template: chapter
+    title: >-
+      Missions
+    slug: >-
+      missions
+    ranks:
+      base: 2
+      self: 2
+    top:
+      active: true
+      title: 
+        value: >-
+          Missions
+        heading: 2
+
+    data:
+      layout: no_background
+      text: >-
+        <p>• Animation : ateliers d'intelligence collective<br>• Accompagnement à la programmation<br>• Rendu de concours : direction artistique, mise en récit du projet<br>phase candidature et phase offre</p><p>Groupement :<br>YOUSE | FONDATION GOODPLANET | LA FABULEUSE CANTINE<br>Looking For Architecture | Atelier Charlotte Vergély | Jardin-Patrimoine | eEgenie | Minéka | Denizou | Bureau Alpes Contrôles | Maison Gutenberg | Kaleido’scop | Inclusif-Oxalis |La Formidable Armada</p>
+
+
+
+
+
+
+  - kind: block
+    template: datatable
 
 
     ranks:
@@ -165,12 +191,71 @@ contents:
       active: false
 
     data:
-      layout: no_background
+
+      columns:
+        - "Années"
+        - "Budget"
+      rows:
+        - ["2022 - 2023","12,4 K€ HT"]
 
 
 
+  - kind: block
+    template: persons
 
 
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: false
+
+    data:
+
+      layout: grid
+      options:
+        image: true
+        summary: true
+        link: true
+        contact: false
+
+      persons:
+        - permalink: "/personnes/agnes-jolivet/"
+          path: "/persons/agnes-jolivet"
+          slug: "agnes-jolivet"
+          file: "content/fr/persons/agnes-jolivet.html"
+
+      quantity: 1
+
+
+  - kind: block
+    template: organizations
+
+
+    ranks:
+      base: 2
+    top:
+      active: false
+
+    data:
+      layout: grid
+
+      options:
+        link: true
+        logo: true
+        summary: false
+        address: false
+        filters: false
+
+      organizations:
+        - 
+          name: >-
+            YOUSE
+
+          logo: "9e16ab3b-76b7-4b23-9596-5f5c847be486"
+          external: true
+
+      quantity: 1
 
 
 
