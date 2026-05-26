@@ -236,88 +236,6 @@ contents:
 
 
   - kind: block
-    template: datatable
-
-
-    ranks:
-      base: 2
-    top:
-      active: false
-
-    data:
-
-      columns:
-        - "Année"
-        - "Budget"
-      rows:
-        - ["2024","10 K€ HT"]
-
-
-
-  - kind: block
-    template: persons
-
-
-    ranks:
-      base: 2
-      children: 2
-    top:
-      active: false
-
-    data:
-
-      layout: grid
-      options:
-        image: true
-        summary: true
-        link: true
-        contact: false
-
-      persons:
-        - permalink: "/personnes/agnes-jolivet/"
-          path: "/persons/agnes-jolivet"
-          slug: "agnes-jolivet"
-          file: "content/fr/persons/agnes-jolivet.html"
-
-        - permalink: "/personnes/laurie-beauvilain/"
-          path: "/persons/laurie-beauvilain"
-          slug: "laurie-beauvilain"
-          file: "content/fr/persons/laurie-beauvilain.html"
-
-      quantity: 2
-
-
-  - kind: block
-    template: organizations
-
-
-    ranks:
-      base: 2
-    top:
-      active: false
-
-    data:
-      layout: grid
-
-      options:
-        link: true
-        logo: true
-        summary: false
-        address: false
-        filters: false
-
-      organizations:
-        - 
-          name: >-
-            Bibliothèque Municipale de Lyon
-
-          logo: "3d72568b-0294-4e14-848f-74d1cabf375e"
-          external: true
-
-      quantity: 1
-
-
-  - kind: block
     template: gallery
 
 
@@ -358,6 +276,88 @@ contents:
 
 
 
+
+
+  - kind: block
+    template: datatable
+
+
+    ranks:
+      base: 2
+    top:
+      active: false
+
+    data:
+
+      columns:
+        - "Année"
+        - "Budget"
+      rows:
+        - ["2024","10 K€ HT"]
+
+
+
+  - kind: block
+    template: organizations
+
+
+    ranks:
+      base: 2
+    top:
+      active: false
+
+    data:
+      layout: grid
+
+      options:
+        link: true
+        logo: true
+        summary: false
+        address: false
+        filters: false
+
+      organizations:
+        - 
+          name: >-
+            Bibliothèque Municipale de Lyon
+
+          logo: "3d72568b-0294-4e14-848f-74d1cabf375e"
+          external: true
+
+      quantity: 1
+
+
+  - kind: block
+    template: persons
+
+
+    ranks:
+      base: 2
+      children: 2
+    top:
+      active: false
+
+    data:
+
+      layout: grid
+      options:
+        image: true
+        summary: true
+        link: true
+        contact: false
+
+      persons:
+        - permalink: "/personnes/agnes-jolivet/"
+          path: "/persons/agnes-jolivet"
+          slug: "agnes-jolivet"
+          file: "content/fr/persons/agnes-jolivet.html"
+
+        - permalink: "/personnes/laurie-beauvilain/"
+          path: "/persons/laurie-beauvilain"
+          slug: "laurie-beauvilain"
+          file: "content/fr/persons/laurie-beauvilain.html"
+
+      quantity: 2
 
 
 

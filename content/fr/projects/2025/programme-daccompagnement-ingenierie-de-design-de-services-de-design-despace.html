@@ -145,6 +145,35 @@ contents:
 
 
   - kind: block
+    template: gallery
+
+
+    ranks:
+      base: 2
+    top:
+      active: false
+
+    data:
+
+      layout: grid
+      images:
+        - 
+          id: "1e882691-105f-4020-8107-5476343133df"
+          image:
+            id: "1e882691-105f-4020-8107-5476343133df"
+
+
+
+        - 
+          id: "db5d0cc6-700f-46d1-b563-eb607f5c28a8"
+          image:
+            id: "db5d0cc6-700f-46d1-b563-eb607f5c28a8"
+
+
+
+
+
+  - kind: block
     template: datatable
 
 
@@ -161,39 +190,6 @@ contents:
       rows:
         - ["2025","8,7 K€ HT"]
 
-
-
-  - kind: block
-    template: persons
-
-
-    ranks:
-      base: 2
-      children: 2
-    top:
-      active: false
-
-    data:
-
-      layout: grid
-      options:
-        image: true
-        summary: true
-        link: true
-        contact: false
-
-      persons:
-        - permalink: "/personnes/agnes-jolivet/"
-          path: "/persons/agnes-jolivet"
-          slug: "agnes-jolivet"
-          file: "content/fr/persons/agnes-jolivet.html"
-
-        - permalink: "/personnes/laurie-beauvilain/"
-          path: "/persons/laurie-beauvilain"
-          slug: "laurie-beauvilain"
-          file: "content/fr/persons/laurie-beauvilain.html"
-
-      quantity: 2
 
 
   - kind: block
@@ -234,32 +230,36 @@ contents:
 
 
   - kind: block
-    template: gallery
+    template: persons
 
 
     ranks:
       base: 2
+      children: 2
     top:
       active: false
 
     data:
 
       layout: grid
-      images:
-        - 
-          id: "1e882691-105f-4020-8107-5476343133df"
-          image:
-            id: "1e882691-105f-4020-8107-5476343133df"
+      options:
+        image: true
+        summary: true
+        link: true
+        contact: false
 
+      persons:
+        - permalink: "/personnes/agnes-jolivet/"
+          path: "/persons/agnes-jolivet"
+          slug: "agnes-jolivet"
+          file: "content/fr/persons/agnes-jolivet.html"
 
+        - permalink: "/personnes/laurie-beauvilain/"
+          path: "/persons/laurie-beauvilain"
+          slug: "laurie-beauvilain"
+          file: "content/fr/persons/laurie-beauvilain.html"
 
-        - 
-          id: "db5d0cc6-700f-46d1-b563-eb607f5c28a8"
-          image:
-            id: "db5d0cc6-700f-46d1-b563-eb607f5c28a8"
-
-
-
+      quantity: 2
 
 
 
