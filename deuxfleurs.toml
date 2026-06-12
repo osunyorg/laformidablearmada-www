@@ -31,6 +31,10 @@ from = "/references/missions/mise-en-recit/index.html"
 to = "/references/mots-cles/mise-en-recit/"
 
 [[redirects]]
+from = "/category/en-cours/index.html"
+to = "/references/"
+
+[[redirects]]
 from = "/references/2024-programme-daccompagnement-lieux-innovants-lieux-accueillants-a-destination-des-france-services/index.html"
 to = "/references/2024-lieux-innovants-lieux-accueillants/"
 
