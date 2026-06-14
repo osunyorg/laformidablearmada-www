@@ -59,15 +59,6 @@ items:
   descendants_targets: []
   path: "/projects"
   file: content/fr/projects/_index.html
-- title: contact
-  slug: contact
-  target: "/contact/"
-  kind: page
-  new_tab: false
-  children: []
-  descendants_targets: []
-  path: "/pages/contact"
-  file: content/fr/pages/contact/_index.html
 - title: Interventions
   slug: interventions
   target: "/actualites/"
@@ -77,4 +68,13 @@ items:
   descendants_targets: []
   path: "/posts"
   file: content/fr/posts/_index.html
+- title: contact
+  slug: contact
+  target: "/contact/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/contact"
+  file: content/fr/pages/contact/_index.html
 
