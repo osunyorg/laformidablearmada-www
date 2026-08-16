@@ -8,3 +8,15 @@
                 margin-top: $spacing-2
 h2
     color: var(--color-accent)
+
+q
+    color: var(--color-accent)
+    font-family: serif // Fix temporaire
+    font-weight: bold // Fix temporaire
+    font-style: italic
+    &::before
+        content: "“ "
+        font-style: normal
+    &::after
+        content: " ”"
+        font-style: normal
