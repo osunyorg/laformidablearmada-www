@@ -68,7 +68,16 @@ items:
   descendants_targets: []
   path: "/posts"
   file: content/fr/posts/_index.html
-- title: contact
+- title: RSE
+  slug: rse
+  target: "/responsabilite-sociale-et-environnementale-de-lentreprise/"
+  kind: page
+  new_tab: false
+  children: []
+  descendants_targets: []
+  path: "/pages/responsabilite-sociale-et-environnementale-de-lentreprise"
+  file: content/fr/pages/responsabilite-sociale-et-environnementale-de-lentreprise/_index.html
+- title: Contact
   slug: contact
   target: "/contact/"
   kind: page
